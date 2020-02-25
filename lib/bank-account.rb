@@ -4,9 +4,11 @@ class BankAccount
     @balance = 0
    end
    def deposit(money)
+     # returns the balance 
      @balance += money
    end
-   def withdraw(money)
+   def withdraw_money(money)
+     # returns the balance
      @balance -= money
    end
 end
