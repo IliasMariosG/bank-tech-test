@@ -8,7 +8,7 @@ describe BankAccount do
       end
     end
   end
-  context 'When deposit is made' do
+    # probably not necessary
     describe '#deposit' do
       context 'When a deposit of 1000 is made' do
         it 'Returns 1000' do
@@ -31,7 +31,13 @@ describe BankAccount do
           account.deposit(700)
           expect(account.balance).to eq(1700)
         end
+      end
+      context 'When a withdrawal of 500 is made' do
+        it 'Returns balance of -500' do
+         account = BankAccount.new
+         account.withdraw_money(100)
+         expect(account.balance).to eq(-100)
+        end
       end 
     end
-  end
 end
