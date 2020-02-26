@@ -20,11 +20,11 @@ The program is run on the terminal as follows:
 >
 >`account.withdraw_money(90)`
 >
--> 10
+> -> 10
 >
 >`account.balance`
 >
->-> 10
+> -> 10
 
 ## Approach ##
 
