@@ -8,15 +8,23 @@
 
 The program is run on the terminal as follows:
 
-`irb`
-`require './lib/bank_account.rb'`
-`account = BankAccount.new`
-`account.deposit_money(100)`
--> 100
-`account.withdraw_money(90)`
+> `irb`
+>
+> `require './lib/bank_account.rb'`
+>
+> `account = BankAccount.new`
+>
+> `account.deposit_money(100)`
+>
+> -> 100
+>
+>`account.withdraw_money(90)`
+>
 -> 10
-`account.balance`
--> 10
+>
+>`account.balance`
+>
+>-> 10
 
 ## Approach ##
 
