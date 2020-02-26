@@ -7,5 +7,6 @@
 ## Approach ##
 
 - I am using ruby and the program can be run on irb in the command line.
-- Define two classes: > Bank_account & Account_statement
-    The Bank_account class will include the methods that are necessary for deposits and withdrawal. Deposits and withdrawal are in turn necessary for the balance of the account at a certain instance of time. 
+- Define two classes: > BankAccount & AccountStatement
+    The Bank_account class will include the methods that are necessary for deposits and withdrawal. Deposits and withdrawal             are in turn necessary for the balance of the account at a certain instance of time.
+- I will store the outcome components (date & time, credit, debit, balance) in an array or hash
