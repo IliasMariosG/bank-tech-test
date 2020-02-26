@@ -13,6 +13,8 @@ class BankAccount
   end
 
   def withdraw_money(money)
+    raise 'Balance negative' if @balance.zero?
+
     # returns the balance
     @balance -= money
   end
