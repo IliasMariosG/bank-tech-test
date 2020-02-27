@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 gem 'rspec-simplecov'
 
 source 'https://rubygems.org'
@@ -7,4 +8,3 @@ source 'https://rubygems.org'
 #  "https://github.com/#{IliasMariosG/bank-tech-test}" }
 
 # gem "rails"
-
